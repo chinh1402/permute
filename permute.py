@@ -8,7 +8,6 @@ def permute(k, arr):
 def straight_permutation():
     k = "ABCDEFGH"
     arr = [3, 1, 4, 7, 6, 2, 5, 8]
-    n = len(arr)
     print("Straight Permutation:")
     print("Before permutation:", k)
     print("arr:", arr)
@@ -20,7 +19,6 @@ def straight_permutation():
 def extend_permutation():
     k = "ABCDEFGH"
     arr = [3, 1, 4, 7, 6, 2, 5, 8, 3, 1]
-    n = len(arr)
     print("Extend Permutation:")
     print("Before permutation:", k)
     print("arr:", arr)
@@ -32,7 +30,6 @@ def extend_permutation():
 def compress_permutation():
     k = "ABCDEFGH"
     arr = [3, 1, 4, 7]
-    n = len(arr)
     print("Compress Permutation:")
     print("Before permutation:", k)
     print("arr:", arr)
